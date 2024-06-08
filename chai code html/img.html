@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img media="(min-width:200px)" width="400px" src="https://images.pexels.com/photos/7657593/pexels-photo-7657593.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="no image">
+    
+    <picture>
+        <source media="(min-width:650px)" srcset="https://images.pexels.com/photos/20250029/pexels-photo-20250029/free-photo-of-church.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"/>
+        <source media="(min-width:350px)" srcset="https://images.pexels.com/photos/17904304/pexels-photo-17904304/free-photo-of-a-set-of-three-different-shapes-and-a-shadow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"/>
+        <img onclick="two()" src="https://images.pexels.com/photos/17904304/pexels-photo-17904304/free-photo-of-a-set-of-three-different-shapes-and-a-shadow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+    </picture>
+    <img onclick="one()" width="1200px" src="https://images.pexels.com/photos/7657593/pexels-photo-7657593.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="no image">
+      <map name="https://images.pexels.com/photos/20278901/pexels-photo-20278901/free-photo-of-a-woman-in-a-black-dress-leaning-against-a-wooden-door.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load">
+
+      </map>
+
+      <script>
+        function one(){
+            alert("You clicked on one")
+        }
+        function two(){
+            alert("You clicked on one")
+        }
+      </script>
+
+</body>
+</html>
